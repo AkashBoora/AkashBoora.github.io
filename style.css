@@ -261,6 +261,13 @@ ul{
     height: 835px;
     overflow: scroll;
 }
+
+#gallery .headings{
+    margin-top: 15%;
+    text-align: center;
+    color: #0038b1;
+}
+
 img{
     max-width: 100%;
     height: 100%;
@@ -270,7 +277,7 @@ img{
 
 .gal{
     width: 80%;
-    margin: 100px auto 50px;
+    margin: 10px auto 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 30px;

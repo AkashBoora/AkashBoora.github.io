@@ -44,6 +44,15 @@
                 <img src="image8.jpg"onclick="openFullImg(this.src)">
             
                 <img src="image9.webp"onclick="openFullImg(this.src)">
+
+                <img src="image10.jpg"onclick="openFullImg(this.src)">
+            
+                <img src="image11.jpg"onclick="openFullImg(this.src)">
+            
+                <img src="image12.jpg"onclick="openFullImg(this.src)">
+            
+                <img src="image13.jpg"onclick="openFullImg(this.src)">
+
             </div>
         </div>
     
@@ -61,6 +70,11 @@
                 fullImgBox.style.display = "none";
             }
     
+            window.onkeyup = function (event) {
+                if (event.keyCode == 27) {
+                    closeFullImg();
+                }
+            }
     
         </script>
     </section>
